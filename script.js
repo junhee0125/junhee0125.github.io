@@ -50,7 +50,7 @@ setInterval(()=>{
 	let photo = document.querySelector('.photo');
 	currentPhoto = (currentPhoto+1)%photoList.length;
 	if(currentPhoto >= photoList.length){ currentPhoto = 0;}
-	photo.style.backgroundImage = `url(./img/${photoList[currentPhoto]})`;
+	photo.style.backgroundImage = `url(./${photoList[currentPhoto]})`;
 },3000)
 
 
