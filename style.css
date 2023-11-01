@@ -82,7 +82,7 @@ h1{color: var(--fbg);}
 
 .eye span{
 	display:inline-block;
-    background-image:url('../img/eye.png');
+    background-image:url('../eye.png');
     background-size:80%;
     background-repeat:no-repeat;
     background-position:center center;
@@ -154,7 +154,7 @@ h1{color: var(--fbg);}
     background-repeat: no-repeat;
     background-position: center;
     filter:blur(.8px) sepia(.5);
-    background-image: url("../img/photo00.jpg");
+    background-image: url("../photo00.jpg");
     background-size: cover;
     transition: background-image 0.6s ease-in-out;
 }
