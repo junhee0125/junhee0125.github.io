@@ -82,7 +82,7 @@ h1{color: var(--fbg);}
 
 .eye span{
 	display:inline-block;
-    background-image:url('/eye.png');
+    background-image:url('eye.png');
     background-size:80%;
     background-repeat:no-repeat;
     background-position:center center;
